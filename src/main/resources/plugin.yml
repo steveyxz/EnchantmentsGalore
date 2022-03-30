@@ -1,0 +1,13 @@
+name: EnchantmentsGalore
+version: '0.0.0'
+main: me.partlysunny.EnchantmentsGalore
+api-version: 1.18
+authors: [ PartlySunny ]
+depend: [ ]
+description: Custom enchantments plugin
+commands:
+  ecgive:
+    aliases: ["enchantmentsgive", "customgive"]
+    description: Give a custom item
+    usage: ecgive <item> <amount>
+
